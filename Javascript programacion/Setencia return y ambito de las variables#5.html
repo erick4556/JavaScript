@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Return y ambito de las variables</title>
+
+<script>
+
+
+var hola = function(){ //Hola seria la funcion.  La variables locales funcionan dentro de una funcion y las variables globales son las que pueden funcionar de adentro de una funcion hacia afuera o de afuera hacia adentro pueden funcionar en todo el codigo.. todas las variables que esten afuera de una funcion son variables globales.
+	saludo = "Hola mundo"; //Esta es una variable globa.
+	document.write(saludo);
+};
+
+hola();
+document.write(saludo)
+
+</script>
+
+</head>
+
+<body>
+
+<h1 align="center">Hola que haces</h1>
+
+</body>
+
+
+</html>
